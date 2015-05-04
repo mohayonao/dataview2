@@ -46,12 +46,12 @@ var view = new DataView2(buffer); // → DataView
 // set a "float" in the data view
 view.setFloat32(0, 1337.1234, true);
 
-// ensure that the original ArrayBuffer was modified
-console.log(buffer.readFloatLE(0));
-// → 1337.1234130859375
-
 console.log(view.buffer instanceof ArrayBuffer);
 // → true
+
+// ensure that the original ArrayBuffer was modified
+console.log(new Float32Array(buffer)[0]);
+// → 1337.1234130859375
 ```
 
 ## License
