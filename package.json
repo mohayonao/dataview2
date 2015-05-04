@@ -1,0 +1,34 @@
+{
+  "name": "dataview2",
+  "description": "isomorphic DataView API",
+  "version": "0.1.0",
+  "author": "nao yonamine <mohayonao@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/mohayonao/dataview2/issues"
+  },
+  "dependencies": {
+    "buffer-dataview": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  },
+  "files": [
+    "package.json",
+    "index.js",
+    "README.md"
+  ],
+  "homepage": "http://mohayonao.github.io/dataview2/",
+  "keywords": [
+    "dataview"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mohayonao/dataview2.git"
+  },
+  "scripts": {
+    "test": "mocha",
+    "travis": "npm run test"
+  }
+}
