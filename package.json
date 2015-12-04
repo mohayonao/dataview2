@@ -1,7 +1,7 @@
 {
   "name": "dataview2",
-  "description": "isomorphic DataView API",
-  "version": "0.1.0",
+  "description": "Efficient DataView for isomorphic libraries",
+  "version": "1.0.0",
   "author": "nao yonamine <mohayonao@gmail.com>",
   "bugs": {
     "url": "https://github.com/mohayonao/dataview2/issues"
@@ -10,7 +10,7 @@
     "buffer-dataview": "0.0.2"
   },
   "devDependencies": {
-    "mocha": "^2.2.4"
+    "mocha": "^2.3.4"
   },
   "files": [
     "package.json",
