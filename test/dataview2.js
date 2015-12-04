@@ -31,7 +31,6 @@ describe("DataView2", function() {
     });
   });
 });
-
 describe("Buffer2", function() {
   var Buffer2 = dataview2.Buffer2;
 
@@ -42,5 +41,4 @@ describe("Buffer2", function() {
       assert(buffer instanceof Buffer);
     });
   });
-
 });
