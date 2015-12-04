@@ -2,7 +2,7 @@
 [![Build Status](http://img.shields.io/travis/mohayonao/dataview2.svg?style=flat-square)](https://travis-ci.org/mohayonao/dataview2)
 [![NPM Version](http://img.shields.io/npm/v/dataview2.svg?style=flat-square)](https://www.npmjs.org/package/dataview2)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://mohayonao.mit-license.org/)
-> isomorphic DataView API
+> Efficient DataView for isomorphic libraries
 
 ## Installation
 
@@ -13,10 +13,12 @@ npm install dataview2
 ```
 
 ## API
-- `DataView2(buffer: Buffer|ArrayBuffer)`
-  - returns an instance that implements [DataView](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView) API.
-- `Buffer2(n: size)`
-  - returns `Buffer` or `ArrayBuffer`
+- `DataView2(buffer: Buffer|ArrayBuffer): BufferDataView|DataView`
+  - node.js: returns an instance of [`BufferDataView`](https://github.com/TooTallNate/node-buffer-dataview)
+  - browser: returns an instance of `DataView`
+- `Buffer2(n: size): Buffer|ArrayBuufer`
+  - node.js: return an instance of `Buffer`
+  - browser: return an instance of `ArrayBuffer`
 
 ## Examples
 
