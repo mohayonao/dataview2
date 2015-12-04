@@ -10,7 +10,7 @@
     "buffer-dataview": "0.0.2"
   },
   "devDependencies": {
-    "mocha": "^2.2.4"
+    "mocha": "^2.3.4"
   },
   "files": [
     "package.json",
